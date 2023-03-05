@@ -1,0 +1,14 @@
+this is a vocal assistant based on openai
+to use this create a new folder and create a virtual python env (python -m venv venv)
+then do venv/Scripts/Activate.bat
+install Pyaudio(use cp311 if you have python 3.11 and cp310 if you have python 3.10(only versions supported by this project))
+install requirements
+open secret.json and put in your openai private key
+start Vocal_assistant.py
+Enjoy!
+
+
+
+Made By Luca Iaria
+All rights reserved to Luca Iaria
+Uploaded By Gianluca Veronese
