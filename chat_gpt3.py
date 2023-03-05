@@ -18,7 +18,7 @@ def get_response(messages:list):
 
 if __name__ == "__main__":
     messages = [
-        {"role": "system", "content": "Sei un assistente vocale chiamata JOI e parli italiano."}
+        {"role": "system", "content": "You are a vocal assistant named JOI and you speak english."}
     ]
     try:
         while True:
@@ -28,4 +28,4 @@ if __name__ == "__main__":
             print(f"\nJOI: {new_message['content']}")
             messages.append(new_message)
     except KeyboardInterrupt:
-        print("A presto!")
+        print("See you!")
